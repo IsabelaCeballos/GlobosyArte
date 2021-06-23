@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@400;500;700&family=Roboto:wght@300&display=swap');
+
+:root{
+    --font_Quicksand: 'Quicksand', sans-serif;
+    --font_Bebas_Neue: 'Bebas Neue', cursive;
+    --font_Roboto: 'Roboto', sans-serif;
+    --color_Blue:#3EDBF0;
+    --color_Yellow: #FFF500;
+    --color_Gradient: linear-gradient(to top, #ffffff, #f6f5fe, #ecebfd, #e0e2fc, #d4d9fc, #ced5fc, #c8d2fb, #c1cefb, #c1cefb, #c1cefb, #c1cefb, #c1cefb);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
