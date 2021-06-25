@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
     <title>Index</title>
 </head>
 <body>
@@ -45,7 +46,26 @@
         </section>
         
     </header>
-    <main></main>
+    <main>
+        <section class="main__carousel">            
+            <div class="glider">
+                <div> <img src="IMG/imagen4.jpg" alt="Imagen carousel 1"></div>
+                <div> <img src="IMG/imagen7.jpg" alt="Imagen carousel 2"></div>
+                <div> <img src="IMG/imagen3.jpg" alt="Imagen carousel 3"></div>
+                <div> <img src="IMG/imagen1.jpg" alt="Imagen carousel 4"></div>
+                <div> <img src="IMG/imagen5.jpg" alt="Imagen carousel 5"></div>
+                <div> <img src="IMG/imagen6.jpg" alt="Imagen carousel 6"></div>
+            </div>
+            <button aria-label="Previous" class="glider-l">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button aria-label="Next" class="glider-r">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            <div role="tablist" class="dots"></div>
+            <div role="tablist" class="carousel__indicadores"></div>                       
+        </section>
+    </main>
     <footer class="footer">
         <section class="footer__info">
             <div class="footer__contact">
@@ -90,5 +110,20 @@
         </section>
     </footer>
     
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script>
+        window.addEventListener('load', function(){
+            new Glider(document.querySelector('.glider'), {
+                slidesToShow: 1,
+                dots: '.carousel__indicadores',
+                draggable: true,
+                arrows: {
+                    prev: '.glider-l',
+                    next: '.glider-r'
+                }
+            });
+        }); 
+    </script>
 </body>
 </html>
