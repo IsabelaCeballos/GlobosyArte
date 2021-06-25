@@ -53,14 +53,16 @@ input{
 .section--container__menu ul{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 5px;
+    justify-content: space-between;
+    padding: 10px 0;
 }
 .section--container__menu li{
     display:inline;
     font-family: var(--font_Quicksand);
     font-weight: 700;
-    padding: 7px 80px 0 80px;
+    text-align: center;
+    width: 100%;
+    box-sizing: content-box;
 }
 .section--container__menu li a{
     text-decoration: none;
@@ -152,8 +154,7 @@ input{
 }
 .main__productos{
     padding: 70px 60px 40px 60px;
-    
-}
+}    
 .main__title1{
     text-align: center;
     padding-bottom: 20px;
@@ -198,4 +199,39 @@ input{
 }
 .img--description a:hover{
     text-decoration: underline;
+}
+/******************Styles marcas*************/
+.contents__brands {
+    background-image: var(--color_Gradient);
+    width: 100%;
+    height: 400px;
+    padding: 70px 60px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contents__brands h2 {
+    font-family: var(--font_Bebas_Neue);
+    color: #003E7E;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #576860;
+}
+.brands__img-cont {
+    width: 60%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-column-gap: 80px;
+}
+.brands__img-cont img {
+    width: 100%;
+}
+.brands__img-cont div {
+    justify-self: center;
+    align-self: center;
 }
