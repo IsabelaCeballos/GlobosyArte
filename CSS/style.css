@@ -150,4 +150,7 @@ input{
     bottom: 10px;
     left: 45%;
 }
+.main__contents {
+    padding: 10px 30px;
+}
 
