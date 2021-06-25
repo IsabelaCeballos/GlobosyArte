@@ -20,10 +20,7 @@
     justify-content: space-between
 }
 .section--img__logo{
-    width: 200px;
-    margin: 10px 10px;
-    margin-left: 100px;
-    padding: 10px;
+    margin: 10px 0 5px 50px;
 }
 .section--container__input{
     border-radius: 10px;
