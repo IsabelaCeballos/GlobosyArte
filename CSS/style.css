@@ -235,3 +235,36 @@ input{
     justify-self: center;
     align-self: center;
 }
+.location__content{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    grid-template-rows: 1fr ;
+    grid-gap: 5px;
+}
+.location__content--one{
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;   
+}
+iframe{
+    left: 40px;
+}
+.location__content--two{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font_Quicksand);
+}
+.location__content--two h3{
+    padding: 10px 80px;
+    border-bottom: 1px solid black ;
+}
+.location__content--two p{
+    padding-bottom: 6px;
+}
+.location__content--two .p--one{
+    padding-top: 20px;
+}
