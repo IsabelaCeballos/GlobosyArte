@@ -317,4 +317,19 @@ iframe{
 .location__content--two .p--one{
     padding-top: 20px;
 }
+<<<<<<< HEAD
 
+=======
+.redirecciones{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 40px 20px 20px 20px;
+}
+.redirecciones a{
+    text-decoration: underline;
+    color: black;
+    font-family: var(--font_Roboto);
+    font-size:14px;
+}
+>>>>>>> productos2
