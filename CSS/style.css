@@ -154,6 +154,12 @@ input{
 .footer__dates div svg {
     margin: 0 30px;
 }
+.footer__dates div a {
+    text-decoration: none;
+    color: black;
+}.footer__dates div a:hover {
+    text-decoration: underline;
+}
 .footer__logo {
     justify-content: center;
 }
@@ -223,6 +229,7 @@ input{
     height: 300px;
     object-fit: cover;
 }
+
 .img--description{
     padding-top: 15px;
     display: flex;
