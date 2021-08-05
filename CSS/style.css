@@ -14,6 +14,7 @@
     margin: 0;
     padding: 0;
 }
+/**************************************************ESTILOS HEADER******************************************************************/
 .section--container__logo{
     background-image: var(--color_Gradient_header); 
     display: flex;
@@ -91,8 +92,7 @@ input{
 .item5{
     border-top: #FFD8CC solid 3px;
 }
-
-/*estilos menu productos*/
+/**************************************************ESTILOS MENU PRODCUTOS******************************************************************/
 .wrapper {
     display: none;
     width: 230px;
@@ -125,8 +125,7 @@ input{
 .menu-two ul li a:hover {
     text-decoration: underline;
 }
-
-
+/**************************************************ESTILOS FOOTER******************************************************************/
 .footer {
     width: 100%;
     height: auto;
@@ -163,6 +162,7 @@ input{
 .footer__logo {
     justify-content: center;
 }
+/**************************************************ESTILOS CAROUSEL******************************************************************/
 .main__carousel {
     width: 100%;
     position: relative;
@@ -198,6 +198,7 @@ input{
     bottom: 10px;
     left: 45%;
 }
+/**************************************************ESTILOS PRODCUTOS RECOMENDADOS******************************************************************/
 .main__productos{
     padding: 40px 60px;
 }    
@@ -229,7 +230,6 @@ input{
     height: 300px;
     object-fit: cover;
 }
-
 .img--description{
     padding-top: 15px;
     display: flex;
@@ -247,7 +247,7 @@ input{
 .img--description a:hover{
     text-decoration: underline;
 }
-/*frame de productos*/
+/**************************************************ESTILOS PRODCUTOS******************************************************************/
 .main__products{
     width: 100%;
     box-sizing: border-box;
@@ -298,7 +298,7 @@ input{
 .padding{
     padding: 0px 20px ;
 }
-/******************Styles marcas*************/
+/**************************************************ESTILOS MARCAS******************************************************************/
 .contents__brands {
     background-image: var(--color_Gradient);
     width: 100%;
@@ -333,6 +333,7 @@ input{
     justify-self: center;
     align-self: center;
 }
+/**************************************************ESTILOS UBICACION******************************************************************/
 .location {
     padding: 40px 0px;
 }
